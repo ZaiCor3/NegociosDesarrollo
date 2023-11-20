@@ -1,10 +1,12 @@
+
+// Este código crear el formulario 
 const btnLanzarModal = document.querySelector('#lanzar-modal');
 const btnOcultarModal = document.querySelector('#ocultar-modal');
 
 const contModal = document.querySelector('.contenedor-modal');
 
 const nombreInput = document.querySelector('#nombre');
-const puestoInput = document.querySelector('#puesto');
+const puestoInput = document.querySelector('#comentario');
 
 btnLanzarModal.addEventListener('click', (e) => {
     e.preventDefault();
