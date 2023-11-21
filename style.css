@@ -2,12 +2,18 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #baf77c;
+  background-color: #343B22;
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;  
+  
+}
+.navbar-noml{
+  align-items: center;
+  justify-content: space-between;  
+  font-family: 'Rubik Dirt', cursive;
 }
 
 /* Estilos generales */
@@ -26,12 +32,12 @@ h1 {
 
 .seccion-oscura {
   color: black;
-  background-color:#ffffd9;
+  background-color:#EAEBE1;
 }
 
 .seccion-clara {
   color: black;
-  background-color: #61d4b0;
+  background-color: #D0B375;
  
 }
 
@@ -66,7 +72,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color:#f5e1e2;
+  background-color:#EAEBE1;
   min-height: 450px;
   text-align: center;
 }
@@ -188,8 +194,14 @@ footer {
   padding: 20px;
   margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
+
 }
 
+.footer-clara {
+  color: black;
+  background-color: #8EA066 ;
+ 
+}
 .derechos-de-autor {
   font-size: 15px;
   color: #ffffd9;
